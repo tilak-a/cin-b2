@@ -450,7 +450,9 @@
             background-color: #e3b442;
         }
 
-      
+      #my-mov{
+        color: white;
+      }
 
       .section7{
         height: 2px!important;
@@ -536,6 +538,7 @@
           <a href="#contact">Contact Us</a>
         </div>
       </nav>
+      <p id="my-mov"></p>
     </header>
     <!-- Section1 -->
     <section id="section1" class="section section1">
@@ -552,6 +555,8 @@
         <source src="assets/globs/sunoutputnew.mov" type="video/quicktime" />
         <!-- <source src="assets/globs/sun.webm" /> -->
       </video>
+
+      
 
       <div class="header">
         <!-- <img
@@ -898,6 +903,22 @@
         wishForm.reset(); // This clears all form fields
         wishPopup.classList.remove("show");
       });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const sunVidd = document.getElementById("sunVideo");
+        const vidText = document.getElementById("my-mov");
+        console.log("video is mov?", sunVidd);
+        vidText.innerText = sunVidd?.src
+        
+      })
+
+      document.addEventListener("scroll", function () {
+        const sunVidd = document.getElementById("sunVideo");
+        console.log("video is mov?", sunVidd);
+        
+      })
     </script>
 
     <script>
