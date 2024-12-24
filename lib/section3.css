@@ -5,7 +5,7 @@
   position: relative;
   height: 100vh;
   /* background: url('../assets/section2/bg_vid_2_after.JPG') center/cover no-repeat; */
-  display: flex;
+  display: none !important;
   justify-content: center;
   align-items: center;
   overflow: hidden;
@@ -305,7 +305,7 @@
     position: relative;
     height: 100dvh;
     /* background: url('../assets/section2/bg_vid_2_after.JPG') center/cover no-repeat; */
-    display: flex;
+    display: none !important;
     justify-content: center;
     align-items: center;
     overflow: hidden;

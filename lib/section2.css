@@ -4,7 +4,7 @@
 .section2 {
   /* position: relative; */
   /* Section 2 background */
-  display: flex;
+  display: none !important;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;

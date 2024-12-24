@@ -20,6 +20,9 @@
   height: 100vh;
   text-align: center;
   font-family: "Marcellus", serif;
+  color: black !important;
+  overflow-y: hidden !important;
+
   /* z-index: 1; */
 }
 
@@ -58,7 +61,7 @@
   font-size: 2.75rem;
   margin-top: 10px;
   margin-bottom: 10px;
-  color: #ffffff;
+  /* color: #ffffff; */
   position: relative;
   z-index: 20;
   word-spacing: 5px;
@@ -70,7 +73,7 @@
   font-size: 1.35rem;
   margin-bottom: 40px;
   margin-top: 8px;
-  color: #f0f0f0;
+  /* color: #f0f0f0; */
   position: relative;
   z-index: 20;
   word-spacing: 2px;
