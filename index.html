@@ -704,8 +704,16 @@
           !(ua.indexOf("chrome") != -1) &&
           ua.indexOf("version/") != -1;
 
+          const isIOS = /iPad|iPhone|iPod/.test(navigator.platform) ||  
+                (navigator.maxTouchPoints && navigator.maxTouchPoints > 2 && /MacIntel/.test(navigator.platform));
+
+          if(isIOS){
+            return true;
+          }
+
         return isSafari && hasMediaCapabilities;
       }
+
 
       function isIE11() {
         return !!window.navigator.userAgent.match(/Trident\/7\./, []);
